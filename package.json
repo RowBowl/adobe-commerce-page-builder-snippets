@@ -1,0 +1,20 @@
+{
+  "name": "ac-page-builder-snippets",
+  "displayName": "Page Builder Snippets for Adobe Commerce",
+  "description": "A simple snippet extension geared towards Page Builder (Adobe commerce module) development (content type configs, pagebuilder form UI commponent  configs, and widget. Only includes xml support for now.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.91.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "xml",
+        "path": "./snippets/xml-snippets.json"
+      }
+    ]
+  }
+}
